@@ -4,17 +4,22 @@
 }
 
 .songCard {
-    flex: 1 0 calc(50% - 8%);
-  max-width: calc(50% - 8%);
+    flex: 1 0 calc(50% - 10%);
+  max-width: calc(50% - 10%);
     margin: 4%;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    padding: 1%;
   }
 
 .albumCover{
-
     width: 100%;
     border-radius: 10%;
-
 }
+.songCard:hover{
+    transform: scale(1.1);
+}
+
 
 .search{
 

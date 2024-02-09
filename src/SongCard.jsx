@@ -15,7 +15,7 @@ const SongCard = ({song}) => {
             </div>
 
             <div>
-                <span>{song.type}</span>
+                <span>{song.artist.name}</span>
                 <h3>{song.title}</h3>
             </div>
         </div>
