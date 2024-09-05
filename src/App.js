@@ -33,7 +33,7 @@ const App = () => {
     }
     return ( 
         <div className="App">
-            <h1 id="appName">Spotify Playlist Editor</h1>
+            <h1 id="appName">Search for songs</h1>
 
             <div className = "search">
                 <input id="searchBar"placeholder= "Search for songs" value = {searchTerm} onChange={(e)=>setSearchTerm(e.target.value)} onKeyDown={handleKeyPress}/> 
